@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>类</title>
+</head>
+<body>
+
+<script>
+    function Meinv( shengao, tizhong){
+        this.shengao=shengao;
+        this.tizhong=tizhong;
+    }
+    Meinv.prototype.yuanze=function(){
+        alert(this.shengao+"+"+this.tizhong+"=标准");
+        alert(1);
+    };
+    var Meinv1=new Meinv(160,98);
+    Meinv1.yuanze();
+</script>
+
+</body>
+</html>
